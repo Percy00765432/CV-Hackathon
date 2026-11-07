@@ -2,7 +2,7 @@
 
 # Comparative Evaluation Results — Problem Statement 3 (ProbID - P3)
 
-> **Team Members:** Prathik K B (`1RUA24CSE0327`), Preksha P V (`1RUA24CSE0331`), Reshma K P (`1RUA24CSE0363`), Rushil Ravi Reddy (`1RUA24CSE0380`). All metrics below are reported in the exact order specified in **Problem Statement 3 (Page 6)** and **Instruction Sheet (Page 15)**, measured on an NVIDIA A100-SXM4-80GB GPU and 4-Thread CPU ONNX Runtime.
+> **Team Name:** EyeQ | **Team Members:** Prathik K B (`1RUA24CSE0327`), Preksha P V (`1RUA24CSE0331`), Reshma K P (`1RUA24CSE0363`), Rushil Ravi Reddy (`1RUA24CSE0380`). All metrics below are reported in the exact order specified in **Problem Statement 3 (Page 6)** and **Instruction Sheet (Page 15)**, measured on an NVIDIA A100-SXM4-80GB GPU and 4-Thread CPU ONNX Runtime.
 
 ---
 

@@ -4,7 +4,7 @@
 | :--- | :--- |
 | **Problem ID** | `ProbID - P3` |
 | **Problem Title** | `Resource-Efficient Text-to-Image Generation for Mobile Devices` |
-| **Team Name** | `Team EdgeDiff-CV (ProbID - P3)` |
+| **Team Name** | `EyeQ` |
 | **Team Members** | `Prathik K B (1RUA24CSE0327), Preksha P V (1RUA24CSE0331), Reshma K P (1RUA24CSE0363), Rushil Ravi Reddy (1RUA24CSE0380)` |
 | **GitHub Repository** | [https://github.com/Percy00765432/CV-Hackathon](https://github.com/Percy00765432/CV-Hackathon) (`git@github.com:Percy00765432/CV-Hackathon.git`) |
 | **Live Demo / Deployment** | **Live App:** [https://38347557836fd61ec4.gradio.live/](https://38347557836fd61ec4.gradio.live/) <br/> **Video Demo:** [https://drive.google.com/file/d/17Ck3FkOcPKkD1KVChA2xHfEEbpAF8YzN/view?usp=sharing](https://drive.google.com/file/d/17Ck3FkOcPKkD1KVChA2xHfEEbpAF8YzN/view?usp=sharing) |
@@ -16,7 +16,7 @@
 * **Colab Google-Drive Cached Alternative:** [`EdgeDiff_CV_Hackathon_P3_Upgraded.ipynb`](EdgeDiff_CV_Hackathon_P3_Upgraded.ipynb)
 * **Technical Solution Report (PDF & Markdown):** [`Hackathon_Technical_Solution_Report_P3.pdf`](Hackathon_Technical_Solution_Report_P3.pdf) & [`DESIGN_DOCUMENT.md`](DESIGN_DOCUMENT.md)
 * **Standalone CLI Inference Script:** [`run_inference.py`](run_inference.py)
-* **Mandatory Evaluation Metrics File (`eval_probID_TeamID.md`):** [`eval_P3_T01.md`](eval_P3_T01.md)
+* **Mandatory Evaluation Metrics File (`eval_probID_TeamID.md`):** [`eval_P3_EyeQ.md`](eval_P3_EyeQ.md) (also available as [`eval_P3_T01.md`](eval_P3_T01.md) / [`eval_P3_T23.md`](eval_P3_T23.md))
 * **Container & Dependency Specs:** [`Dockerfile`](Dockerfile) & [`requirements.txt`](requirements.txt)
 
 ---
@@ -186,11 +186,3 @@ docker run --gpus all -p 7860:7860 edgediff-cv:latest
 * **Live Hosted URL:** [https://38347557836fd61ec4.gradio.live/](https://38347557836fd61ec4.gradio.live/) (responsive on phone and laptop, response latency < 3.5s).
 * **Video Demo Walkthrough:** [https://drive.google.com/file/d/17Ck3FkOcPKkD1KVChA2xHfEEbpAF8YzN/view?usp=sharing](https://drive.google.com/file/d/17Ck3FkOcPKkD1KVChA2xHfEEbpAF8YzN/view?usp=sharing)
 
----
-
-### Student Submission Checklist
-- [x] Working GitHub repository link included with an updated [`README.md`](README.md) and [`eval_P3_T01.md`](eval_P3_T01.md).
-- [x] Google Colab 1-click reproduction instructions included (with GPU runtime details).
-- [x] No raw code pasted into this report.
-- [x] All table metrics match test runs reproducible via [`EdgeDiff_CV_Hackathon_P3_Submission.ipynb`](EdgeDiff_CV_Hackathon_P3_Submission.ipynb) and [`run_inference.py`](run_inference.py).
-- [x] All team member details accurately recorded.
